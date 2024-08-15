@@ -1,0 +1,908 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Visita mi sitio web para conocer mi perfil profesional detallado. Aquí encontrarás información sobre mi formación académica, experiencia laboral, competencias y logros relevantes en diversos ámbitos."
+    />
+    <meta
+      name="keywords"
+      content="Currículum, CV, Física, Programación, Adrian, adrian996 , Web Personal"
+    />
+    <meta name="author" content="Adrian" />
+    <meta name="robots" content="index, follow" />
+
+    <title>
+      Portafolio Profesional de Adrián: Educación, Trayectoria, Habilidades y Más
+    </title>
+
+    <meta
+      property="og:title"
+      content="Adrian - Currículum y Presentación Personal"
+    />
+    <meta
+      property="og:description"
+      content="Currículum y presentación personal de Adrian. Experto en física y programación."
+    />
+    <meta property="og:image" content="URL_de_tu_imagen.jpg" />
+    <meta property="og:url" content="https://adrianrguez96.github.io" />
+    <meta property="og:type" content="website" />
+    <meta http-equiv="Cache-Control" content="max-age=600" />
+
+    <link
+      rel="alternate"
+      hreflang="es"
+      href="https://adrianrguez96.github.io/adrianrguez96.github.io/index.html?lang=es"
+    />
+    <link
+      rel="alternate"
+      hreflang="en"
+      href="https://adrianrguez96.github.io/adrianrguez96.github.io/index.html?lang=en"
+    />
+    <link
+      rel="alternate"
+      hreflang="ja"
+      href="https://adrianrguez96.github.io/adrianrguez96.github.io/index.html?lang=jp"
+    />
+    <link
+      rel="alternate"
+      hreflang="zh"
+      href="https://adrianrguez96.github.io/adrianrguez96.github.io/index.html?lang=zh"
+    />
+
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="images/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/images/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/images/favicon/favicon-32x32.png"
+    />
+    <link rel="manifest" href="/images/favicon/site.webmanifest" />
+    <link
+      rel="mask-icon"
+      href="/images/favicon/safari-pinned-tab.svg"
+      color="#000000"
+    />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="theme-color" content="#ffffff" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bungee&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/11b14ddab6.js"
+      crossorigin="anonymous"
+      async
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+      media="print"
+      onload="this.onload=null;this.removeAttribute('media');"
+    />
+    <link
+      rel="preload"
+      href="images/math-background.avif"
+      as="image"
+      type="image/avif"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <div class="logo-icon">
+          <div class="spinner"></div>
+        </div>
+        <h1>Adrián</h1>
+      </div>
+      <nav class="navbar">
+        <ul>
+          <li><a href="#home" data-translate="nav_home">Inicio</a></li>
+          <li>
+            <a href="#about-me" data-translate="nav_about_me">Sobre mí</a>
+          </li>
+          <li>
+            <a href="#contact" data-translate="nav_contact">Contacto</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="language-switcher">
+        <button id="lang-es" onclick="changeLanguage('es')">
+          <img src="images/spanish-flag.png" alt="ES" width="60" height="60" />
+        </button>
+        <button id="lang-en" onclick="changeLanguage('en')">
+          <img src="images/english-flag.png" alt="EN" width="60" height="60" />
+        </button>
+        <button id="lang-jp" onclick="changeLanguage('jp')">
+          <img src="images/japanese-flag.png" alt="JP" width="60" height="60" />
+        </button>
+        <button id="lang-zh" onclick="changeLanguage('zh')">
+          <img src="images/chinese-flag.png" alt="ZH" width="60" height="60" />
+        </button>
+      </div>
+    </header>
+    <div id="home" class="hero">
+      <div class="hero-background"></div>
+      <div class="hero-content">
+        <div class="profile-container">
+          <img id="profilePic" src="" alt="Tu Foto" class="profile-pic" />
+        </div>
+        <h2>
+          <span class="symbol-left">&sum;</span>
+          <b data-translate="title_welcome">Bienvenido a mi página personal</b>
+          <span class="symbol-right">&nabla;&sup2;</span>
+        </h2>
+        <p class="subtitle">
+          <span class="symbol-left-sub">&Delta;</span>
+          <b data-translate="principal_main_subtitle"
+            >Fusionando Física, Matemáticas y Desarrollo de Software</b
+          >
+          <span class="symbol-right-sub">&infin;</span>
+        </p>
+        <button class="button-contact" onclick="redirectToContact()">
+          <span class="button_lg">
+            <span class="button_sl"></span>
+            <span class="button_text" data-translate="principal_main_contact"
+              >Contáctame</span
+            >
+          </span>
+        </button>
+      </div>
+    </div>
+    <main>
+      <section id="about_me">
+        <h2 data-translate="title_about_me">Sobre Mí</h2>
+        <div class="section-content" data-translate="content_about_me">
+          <p>Saludos, soy Adrián, originario de Tenerife, Canarias, España.</p>
+          <p>
+            Obtuve mi título en Física y Matemáticas en la Universidad de La
+            Laguna, donde me especialicé en áreas fascinantes como la física
+            cuántica y la teoría de campos. Durante mi formación académica,
+            desarrollé habilidades críticas en el análisis de problemas
+            complejos y la aplicación de métodos avanzados de investigación.
+          </p>
+          <p>
+            Mi interés por la tecnología me llevó a explorar la programación
+            desde una temprana etapa, abarcando desde el desarrollo web hasta la
+            implementación de soluciones innovadoras en el ámbito informático.
+            Esta combinación de habilidades me ha permitido participar en
+            proyectos académicos y personales que desafían los límites de la
+            ciencia y la tecnología.
+          </p>
+          <p>
+            Nacido en febrero de 1996, mi pasión por el aprendizaje continuo y
+            la exploración me impulsa a buscar nuevas oportunidades para crecer
+            profesionalmente. Estoy comprometido con la búsqueda de desafíos que
+            me permitan aplicar mis conocimientos en entornos dinámicos y
+            colaborativos, contribuyendo así al avance y la innovación en mi
+            campo de estudio.
+          </p>
+        </div>
+      </section>
+
+      <section id="education">
+        <h2 data-translate="title_education">Educación</h2>
+        <div class="section-content">
+          <ul class="education-list">
+            <li>
+              <a
+                href="https://www.linkedin.com/school/universidad-de-la-laguna/"
+                class="degree"
+                data-translate="education_university_title"
+                >Graduado en Física y Matemáticas</a
+              >
+              <p class="education-details">
+                <span
+                  class="location"
+                  data-translate="education_university_location"
+                  >- Tenerife, Islas Canarias, España</span
+                >
+              </p>
+              <p
+                class="education-description"
+                data-translate="education_university_description"
+              >
+                Obtención del título en Física y Matemáticas con especialización
+                en áreas como la física cuántica y la teoría de campos.
+                Desarrollo de habilidades críticas en análisis de problemas
+                complejos y métodos avanzados de investigación.
+              </p>
+              <p class="university" data-translate="education_university_name">
+                Universidad de La Laguna
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="skills">
+        <h2 data-translate="title_skills">Habilidades</h2>
+        <div class="buttons-container">
+          <button class="skill-button active" data-target="#programming-skill">
+            <span class="icon"><i class="fas fa-code"></i></span>
+            <span class="title" data-translate="skill_programming_title"
+              >Programación</span
+            >
+          </button>
+          <button class="skill-button" data-target="#physics-skill">
+            <span class="icon"><i class="fas fa-atom"></i></span>
+            <span class="title" data-translate="skill_physics_title"
+              >Física</span
+            >
+          </button>
+          <button class="skill-button" data-target="#languages-skill">
+            <span class="icon"><i class="fas fa-language"></i></span>
+            <span class="title" data-translate="skill_languages_title"
+              >Idiomas</span
+            >
+          </button>
+          <button class="skill-button" data-target="#other-skill">
+            <span class="icon"><i class="fas fa-ellipsis-h"></i></span>
+            <span class="title" data-translate="skill_other_title">Otros</span>
+          </button>
+        </div>
+        <div class="section-content">
+          <div class="skills-content">
+            <div class="skill active" id="programming-skill">
+              <h3 data-translate="skill_programming_title">Programación</h3>
+              <ul data-translate="skill_programming_content">
+                <li>
+                  Dominio de Python para aplicaciones científicas y análisis de
+                  datos.
+                </li>
+                <li>
+                  Experiencia en desarrollo web con Vue.js y conocimientos
+                  avanzados de HTML, CSS y JavaScript.
+                </li>
+                <li>
+                  Familiaridad con C, C++, y C# para desarrollo de software y
+                  sistemas embebidos.
+                </li>
+                <li>
+                  Conocimiento en Lua para desarrollo de scripts y mods en
+                  juegos como FiveM (GTA).
+                </li>
+                <li>
+                  Uso de Git para control de versiones y colaboración en
+                  proyectos.
+                </li>
+              </ul>
+            </div>
+            <div class="skill" id="physics-skill">
+              <h3 data-translate="skill_physics_title">Física</h3>
+              <ul data-translate="skill_physics_content">
+                <li>
+                  Especialización en física cuántica y teoría de campos durante
+                  mis estudios universitarios.
+                </li>
+                <li>
+                  Habilidades avanzadas en modelado matemático y simulación de
+                  fenómenos físicos.
+                </li>
+                <li>
+                  Experiencia en investigación experimental y análisis de datos
+                  en laboratorio.
+                </li>
+                <li>
+                  Conocimientos en física teórica y aplicación de métodos
+                  numéricos.
+                </li>
+              </ul>
+            </div>
+            <div class="skill" id="languages-skill">
+              <h3 data-translate="skill_languages_title">Idiomas</h3>
+              <ul data-translate="skill_languages_content">
+                <li>
+                  Inglés: Certificado nivel B2 por la Universidad de La Laguna.
+                </li>
+                <li>
+                  Japonés: Certificado nivel A2.1 por la Universidad de La
+                  Laguna.
+                </li>
+                <li>
+                  Chino: Certificado nivel A1 por la Universidad de La Laguna.
+                </li>
+                <li>Coreano: Nivel básico A1.1.</li>
+              </ul>
+            </div>
+            <div class="skill" id="other-skill">
+              <h3 data-translate="skill_other_title">Otros</h3>
+              <ul data-translate="skill_other_content">
+                <li>
+                  Habilidades de liderazgo y trabajo en equipo desarrolladas
+                  durante cursos universitarios.
+                </li>
+                <li>
+                  Certificado en manejo avanzado de Microsoft Word por la
+                  Universidad de La Laguna.
+                </li>
+                <li>
+                  Pasión por la astronomía y observación estelar como hobby
+                  personal.
+                </li>
+                <li>
+                  Curiosidad por la inteligencia artificial y nuevas tecnologías
+                  emergentes.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="certifications-awards">
+        <h2 data-translate="title_certifications_awards">
+          Certificaciones y Premios
+        </h2>
+        <div class="section-content">
+          <div class="swiper-container certification-list">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div
+                  class="certification-card"
+                  data-translate="certification_theater"
+                >
+                  <h3>Curso de Teatro</h3>
+                  <p class="cert-duration">
+                    Duración: 7 meses (aprox. 560 horas en total)
+                  </p>
+                  <p>
+                    Curso intensivo de teatro adulto en la Escuela de Actores de
+                    Canarias (EAC) en Tenerife.
+                  </p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div
+                  class="certification-card"
+                  data-translate="certification_leader"
+                >
+                  <h3>Curso de Liderazgo</h3>
+                  <p class="cert-duration">Duración: 48 horas</p>
+                  <p>
+                    Curso sobre liderazgo y habilidades de gestión organizado
+                    por la Universidad de La Laguna.
+                  </p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div
+                  class="certification-card"
+                  data-translate="certification_word"
+                >
+                  <h3>Curso de Microsoft Word</h3>
+                  <p class="cert-duration">Duración: 24 horas</p>
+                  <p>
+                    Curso certificado por la Universidad de La Laguna sobre
+                    manejo avanzado de Microsoft Word.
+                  </p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div
+                  class="certification-card"
+                  data-translate="certification_english"
+                >
+                  <h3>Curso de Inglés</h3>
+                  <p class="cert-duration">
+                    Duración: 3 meses (aprox. 24 horas en total)
+                  </p>
+                  <p>
+                    Curso intensivo de inglés con clases semanales de 2 horas
+                    durante 3 meses.
+                  </p>
+                  <p>Nivel: B2 (MCER)</p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div
+                  class="certification-card"
+                  data-translate="certification_japanese"
+                >
+                  <h3>Curso de Japonés</h3>
+                  <p class="cert-duration">
+                    Duración: 3 meses (aprox. 24 horas en total)
+                  </p>
+                  <p>
+                    Curso intensivo de japonés con clases semanales de 2 horas
+                    durante 3 meses.
+                  </p>
+                  <p>Nivel: A2 (MCER) | N4</p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div
+                  class="certification-card"
+                  data-translate="certification_noken"
+                >
+                  <h3>Certificación Noken 5</h3>
+                  <p>
+                    Obtenido en la Universidad de Las Palmas de Gran Canaria.
+                  </p>
+                  <p>Nivel: N5 (Noken)</p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div
+                  class="certification-card"
+                  data-translate="certification_chinese"
+                >
+                  <h3>Curso de Chino</h3>
+                  <p class="cert-duration">
+                    Duración: 3 meses (aprox. 24 horas en total)
+                  </p>
+                  <p>
+                    Curso intensivo de chino con clases semanales de 2 horas
+                    durante 3 meses.
+                  </p>
+                  <p>Nivel: A1 (MCER) | HSK1</p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div
+                  class="certification-card"
+                  data-translate="certification_korean"
+                >
+                  <h3>Curso de Coreano</h3>
+                  <p class="cert-duration">
+                    Duración: 3 meses (aprox. 24 horas en total)
+                  </p>
+                  <p>
+                    Curso intensivo de coreano con clases semanales de 2 horas
+                    durante 3 meses.
+                  </p>
+                  <p>Nivel: A1 (MCER) | TOPIK I Grade 1</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="tools-technologies">
+        <h2 data-translate="title_tools_technologies">
+          Herramientas y Tecnologías
+        </h2>
+        <div class="section-content">
+          <div class="tools-menu">
+            <span class="tool-btn" data-target="html-content">
+              <img
+                src="images/technologiesIcon/html.svg"
+                loading="lazy"
+                alt="Icono HTML"
+              />
+            </span>
+            <span class="tool-btn" data-target="css-content">
+              <img
+                src="images/technologiesIcon/css.svg"
+                loading="lazy"
+                alt="Icono CSS"
+              />
+            </span>
+            <span class="tool-btn" data-target="javascript-content">
+              <img
+                src="images/technologiesIcon/javascript.svg"
+                loading="lazy"
+                alt="Icono JavaScript"
+              />
+            </span>
+            <span class="tool-btn" data-target="sql-content">
+              <img
+                src="images/technologiesIcon/sql.svg"
+                loading="lazy"
+                alt="Icono SQL"
+              />
+            </span>
+            <span class="tool-btn" data-target="c-content">
+              <img
+                src="images/technologiesIcon/c.svg"
+                loading="lazy"
+                alt="Icono C"
+              />
+            </span>
+            <span class="tool-btn" data-target="cpp-content">
+              <img
+                src="images/technologiesIcon/cpp.svg"
+                loading="lazy"
+                alt="Icono C++"
+              />
+            </span>
+            <span class="tool-btn" data-target="csharp-content">
+              <img
+                src="images/technologiesIcon/csharp.svg"
+                loading="lazy"
+                alt="Icono C#"
+              />
+            </span>
+            <span class="tool-btn" data-target="python-content">
+              <img
+                src="images/technologiesIcon/python.svg"
+                loading="lazy"
+                alt="Python"
+              />
+            </span>
+            <span class="tool-btn" data-target="vue-content">
+              <img
+                src="images/technologiesIcon/vuejs.svg"
+                loading="lazy"
+                alt="Vue"
+              />
+            </span>
+            <span class="tool-btn" data-target="asm-content">
+              <img
+                src="images/technologiesIcon/assembly.svg"
+                loading="lazy"
+                alt="assembly"
+              />
+            </span>
+          </div>
+          <div class="tools-content">
+            <div id="html-content" class="tool-content">
+              <h3>HTML</h3>
+              <p data-translate="content_HTML_Technology">
+                Uso <strong>HTML</strong> para estructurar y dar formato al
+                contenido web. Es el lenguaje estándar de marcado que define la
+                estructura básica de las páginas. Junto con CSS y JavaScript,
+                permite crear sitios web dinámicos y atractivos.
+              </p>
+            </div>
+            <div id="css-content" class="tool-content">
+              <h3>CSS</h3>
+              <p data-translate="content_CSS_Technology">
+                <strong>CSS</strong> es fundamental para el diseño visual de las
+                páginas web. Permite aplicar estilos como colores, fuentes y
+                diseños adaptables a diferentes dispositivos. También facilita
+                la creación de animaciones y transiciones que mejoran la
+                experiencia del usuario.
+              </p>
+            </div>
+            <div id="javascript-content" class="tool-content">
+              <h3>JavaScript</h3>
+              <p data-translate="content_JS_Technology">
+                <strong>Javascript</strong> añade interactividad a las páginas
+                web, permitiendo manipular el contenido dinámicamente y
+                responder a acciones del usuario. Es esencial para desarrollar
+                aplicaciones web modernas y dinámicas.
+              </p>
+            </div>
+            <div id="sql-content" class="tool-content">
+              <h3>SQL</h3>
+              <p data-translate="content_SQL_Technology">
+                <strong>SQL</strong> es utilizado para gestionar bases de datos
+                relacionales, permitiendo realizar consultas complejas y
+                manipular datos de manera eficiente. Es esencial en aplicaciones
+                que manejan grandes volúmenes de información.
+              </p>
+            </div>
+            <div id="c-content" class="tool-content">
+              <h3>C</h3>
+              <p data-translate="content_C_Technology">
+                <strong>C</strong> es un lenguaje de programación de alto
+                rendimiento. C se usa en sistemas operativos y aplicaciones de
+                bajo nivel.
+              </p>
+            </div>
+            <div id="cpp-content" class="tool-content">
+              <h3>C++</h3>
+              <p data-translate="content_CPP_Technology">
+                <strong>C++</strong> incorpora programación orientada a objetos,
+                siendo ideal para software complejo como videojuegos y sistemas
+                en tiempo real.
+              </p>
+            </div>
+            <div id="csharp-content" class="tool-content">
+              <h3>C#</h3>
+              <p data-translate="content_CSharp_Technology">
+                <strong>c#</strong> es un lenguaje moderno desarrollado por
+                Microsoft, utilizado en aplicaciones de escritorio, web y
+                servicios backend. Combina simplicidad con características
+                avanzadas, facilitando el desarrollo de software robusto.
+              </p>
+            </div>
+            <div id="python-content" class="tool-content">
+              <h3>Python</h3>
+              <p data-translate="content_Python_Technology">
+                <strong>Python</strong> es conocido por su sintaxis clara y
+                concisa, siendo muy utilizado en desarrollo web, ciencia de
+                datos, y aprendizaje automático. Es ideal para proyectos que
+                requieren rapidez de desarrollo y facilidad de uso, como en
+                física y computación científica.
+              </p>
+            </div>
+            <div id="vue-content" class="tool-content">
+              <h3>Vue.js</h3>
+              <p data-translate="content_Vue_Technology">
+                <strong>Vue.js</strong> es un framework progresivo de JavaScript
+                para construir interfaces de usuario interactivas. Facilita la
+                creación de aplicaciones web modernas y reactivas mediante
+                componentes reutilizables y actualizaciones eficientes del DOM.
+              </p>
+            </div>
+            <div id="asm-content" class="tool-content">
+              <h3>Lenguaje Ensamblador (ASM)</h3>
+              <p data-translate="content_ASM_Technology">
+                <strong>ASM</strong> es un lenguaje de bajo nivel que permite
+                programar directamente la CPU. Es esencial para situaciones
+                donde se requiere control absoluto y máxima eficiencia en el
+                hardware y sistemas de tiempo real.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="interests">
+        <h2 data-translate="title_interests">Intereses Personales</h2>
+        <div class="section-content">
+          <ul class="interests-list">
+            <li class="interest-card">
+              <img
+                src="images/interestIcon/travel.svg"
+                loading="lazy"
+                alt="Icono de Viajes"
+                class="interest-icon"
+                width="120"
+                height="120"
+              />
+              <div class="interest-details" data-translate="interest_travel">
+                <strong>Viajes y Cultura</strong>
+                <p>
+                  He tenido la oportunidad de explorar muchos lugares de Europa
+                  y mi sueño es visitar países asiáticos en el futuro para
+                  aprender sobre su cultura y tradiciones.
+                </p>
+              </div>
+            </li>
+            <li class="interest-card">
+              <img
+                src="images/interestIcon/tecnology.svg"
+                loading="lazy"
+                alt="Icono de Tecnología"
+                class="interest-icon"
+                width="120"
+                height="120"
+              />
+              <div
+                class="interest-details"
+                data-translate="interest_technology"
+              >
+                <strong>Tecnología</strong>
+                <p>
+                  Me apasiona todo lo relacionado con la tecnología,
+                  especialmente las nuevas tendencias como la inteligencia
+                  artificial (IA) y la computación cuántica.
+                </p>
+              </div>
+            </li>
+            <li class="interest-card">
+              <img
+                src="images/interestIcon/read.svg"
+                loading="lazy"
+                alt="Icono de Literatura"
+                class="interest-icon"
+                width="120"
+                height="120"
+              />
+              <div class="interest-details" data-translate="interest_read">
+                <strong>Literatura y Lectura</strong>
+                <p>
+                  La literatura es una de mis grandes pasiones. Disfruto leyendo
+                  una amplia variedad de géneros, desde libros históricos y de
+                  ciencia ficción hasta manga y grandes clásicos literarios como
+                  El Quijote.
+                </p>
+              </div>
+            </li>
+            <li class="interest-card">
+              <img
+                src="images/interestIcon/language.svg"
+                loading="lazy"
+                alt="Icono de Idiomas"
+                class="interest-icon"
+                width="120"
+                height="120"
+              />
+              <div class="interest-details" data-translate="interest_language">
+                <strong>Aprendizaje de Idiomas</strong>
+                <p>
+                  Me interesa aprender y dominar diferentes idiomas de todo el
+                  mundo, siempre buscando expandir mis horizontes lingüísticos y
+                  culturales.
+                </p>
+              </div>
+            </li>
+            <li class="interest-card">
+              <img
+                src="images/interestIcon/game.svg"
+                loading="lazy"
+                alt="Icono de Videojuegos"
+                class="interest-icon"
+                width="120"
+                height="120"
+              />
+              <div class="interest-details" data-translate="interest_game">
+                <strong>Videojuegos</strong>
+                <p>
+                  Desde la época de la PlayStation 1, he disfrutado de una
+                  amplia variedad de videojuegos de diferentes géneros,
+                  explorando desde clásicos hasta los últimos lanzamientos.
+                </p>
+              </div>
+            </li>
+            <li class="interest-card">
+              <img
+                src="images/interestIcon/astronomy.svg"
+                loading="lazy"
+                alt="Icono de Astronomía"
+                class="interest-icon"
+                width="120"
+                height="120"
+              />
+              <div class="interest-details" data-translate="interest_astronomy">
+                <strong>Astronomía</strong>
+                <p>
+                  Una de mis actividades favoritas es la observación estelar
+                  nocturna con mi telescopio, explorando el fascinante universo
+                  que nos rodea.
+                </p>
+              </div>
+            </li>
+            <li class="interest-card">
+              <img
+                src="images/interestIcon/anime.svg"
+                loading="lazy"
+                alt="Icono de Anime"
+                class="interest-icon"
+                width="120"
+                height="120"
+              />
+              <div class="interest-details" data-translate="interest_anime">
+                <strong>Anime y Cultura Asiática</strong>
+                <p>
+                  Me apasiona el anime japonés y tengo un gran interés en la
+                  cultura de China, Corea y Japón en general, explorando su
+                  arte, música y tradiciones.
+                </p>
+              </div>
+            </li>
+            <li class="interest-card">
+              <img
+                src="images/interestIcon/personal.svg"
+                loading="lazy"
+                alt="Icono de Desarrollo Personal"
+                class="interest-icon"
+                width="120"
+                height="120"
+              />
+              <div class="interest-details" data-translate="interest_personal">
+                <strong>Desarrollo Personal</strong>
+                <p>
+                  Siempre estoy buscando oportunidades para aprender nuevas
+                  habilidades y conocimientos en diferentes áreas, desafiando
+                  mis límites y ampliando mi perspectiva.
+                </p>
+              </div>
+            </li>
+            <li class="interest-card">
+              <img
+                src="images/interestIcon/research.svg"
+                loading="lazy"
+                alt="Icono Investigación"
+                class="interest-icon"
+                width="120"
+                height="120"
+              />
+              <div class="interest-details" data-translate="interest_reach">
+                <strong>Investigación</strong>
+                <p>
+                  Interés por la investigación en física teórica, física
+                  cuántica, y explorar otras áreas como física molecular, física
+                  de materiales y física nuclear.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="contact">
+        <h2 data-translate="title_contact">Contacto</h2>
+        <div class="section-content">
+          <form action="https://formspree.io/f/mjkbvvkr" method="POST">
+            <div class="form-group">
+              <label for="name" data-translate="contact_name">Nombre</label>
+              <input type="text" id="name" name="name" required />
+            </div>
+            <div class="form-group">
+              <label for="email" data-translate="contact_email">Email</label>
+              <input type="email" id="email" name="email" required />
+            </div>
+            <div class="form-group">
+              <label for="message" data-translate="contact_message"
+                >Mensaje</label
+              >
+              <textarea id="message" name="message" required></textarea>
+            </div>
+            <button type="submit" data-translate="send">Enviar</button>
+          </form>
+          <div class="contact-info">
+            <p data-translate="contact_personal_email">
+              Email: adrianrguez996@gmail.com
+            </p>
+            <ul class="social-media">
+              <li class="social-icon">
+                <a href="https://www.linkedin.com/in/adriancedres/" data-social="linkedin"
+                  ><div class="filled"></div>
+                  <i class="fab fa-linkedin"></i>
+                  <span class="sr-only">Linkedin de adrian</span>
+                </a>
+                <div class="tooltip">LinkedIn</div>
+              </li>
+              <li class="social-icon">
+                <a href="https://github.com/Adrianrguez96" data-social="github"
+                  ><div class="filled"></div>
+                  <i class="fab fa-github"></i>
+                  <span class="sr-only">GitHub de Adrian</span>
+                </a>
+                <div class="tooltip">GitHub</div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="left-footer">
+        <i class="left-footer-icon"></i>
+      </div>
+      <div class="center-footer">
+        <p>&copy; Adrián - 2024</p>
+        <div class="footer-links">
+          <a href="#home" data-translate="nav_home">Inicio</a> |
+          <a href="#about-me" data-translate="nav_about_me">Sobre Mí</a> |
+          <a href="#contact" data-translate="nav_contact">Contacto</a>
+        </div>
+      </div>
+      <div class="right-footer">
+        <i class="right-footer-icon"></i>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="index.js" defer></script>
+  </body>
+</html>

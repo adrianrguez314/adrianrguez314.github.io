@@ -1,0 +1,78 @@
+{
+    "nav": {
+        "home" : "首页",
+        "about_me" : "关于我",
+        "contact" : "联系"
+    },
+    "title": {
+        "welcome": "欢迎来到我的个人页面",
+        "about_me": "关于我",
+        "experience": "工作经验",
+        "education": "教育背景",
+        "skills": "技能",
+        "certifications-awards": "证书与奖项",
+        "tools_technologies": "工具与技术",
+        "interests": "兴趣",
+        "contact": "联系"
+    },
+    "principal_main": {
+        "subtitle" : "整合物理、数学和软件开发",
+        "contact":"联系我"
+    },
+    "content": {
+        "about_me": "<p>你好！我是阿德里安，来自西班牙加那利群岛特内里费。</p><p>我在拉古纳大学获得了物理学和数学学位，在量子物理学和场论等引人入胜的领域专攻。在我的学术旅程中，我培养了分析复杂问题和应用先进研究方法的关键技能。</p><p>我对技术的兴趣驱使我从早期开始探索编程，涵盖从网页开发到在计算机领域实施创新解决方案的广泛领域。这些技能的结合使我能够参与挑战科学和技术界限的学术和个人项目。</p><p>出生于1996年2月。我对持续学习和探索的热情驱使我寻求新的专业成长机会。我致力于追求能够在动态和协作环境中应用知识的挑战，为我的研究领域的进步和创新做出贡献。</p>",
+        "HTML_Technology" : "我使用<strong>HTML</strong>来组织和格式化网页内容。HTML是标准的标记语言，用于定义网页的基本结构。与CSS和JavaScript一起使用，可以创建动态和吸引人的网站。",
+        "CSS_Technology": "<strong>CSS</strong>对网页的视觉设计至关重要。它允许应用诸如颜色、字体和适配不同设备的布局等样式。同时，它还便于创建提升用户体验的动画和过渡效果。",
+        "JS_Technology": "<strong>Javascript</strong>为网页增添了互动性，允许动态操作内容并响应用户的行为。它是开发现代和动态网页应用程序的关键技术。",
+        "SQL_Technology": "<strong>SQL</strong>用于管理关系型数据库，支持复杂的查询和高效的数据操作。在处理大量信息的应用程序中至关重要。",
+        "C_Technology": "<strong>C</strong>是一种高性能的编程语言。它被广泛应用于操作系统和低级应用程序中。",
+        "CPP_Technology": "<strong>C++</strong>采用面向对象编程，非常适合开发复杂的软件，如视频游戏和实时系统。",
+        "CSharp_Technology": "<strong>C#</strong>是由Microsoft开发的现代语言，用于桌面、Web和后端服务应用程序。它将简单性与先进特性结合在一起，有助于开发健壮的软件。",
+        "Python_Technology": "<strong>Python</strong>以其清晰简洁的语法而闻名，广泛用于Web开发、数据科学和机器学习。它非常适合需要快速开发和易用性的项目，如物理学和科学计算。",
+        "Vue_Technology": "<strong>Vue.js</strong>是一个用于构建交互式用户界面的渐进式JavaScript框架。它通过可重用的组件和对DOM的高效更新，便于创建现代化和响应式的Web应用程序。",
+        "ASM_Technology": "<strong>ASM</strong>是一种低级语言，允许直接编程到CPU。在需要硬件和实时系统中绝对控制和最大效率的情况下至关重要。"
+    },
+    "education": {
+        "university_title": "物理学和数学学士学位",
+        "university_location": "- 西班牙，加那利群岛，特内里费",
+        "university_description": "获得物理学和数学学位，专攻量子物理学和场论等领域。培养了复杂问题分析和高级研究方法的关键技能。",
+        "university_name": "拉古纳大学"
+    },
+    "skill": {
+        "programming_title": "编程",
+        "physics_title": "物理",
+        "languages_title": "语言",
+        "other_title": "其他",
+        "programming_content": "<li>掌握Python用于科学应用和数据分析。</li><li>有使用Vue.js进行网页开发的经验，并且掌握HTML、CSS和JavaScript的高级知识。</li><li>熟悉C、C++和C#，用于软件开发和嵌入式系统。</li><li>了解Lua用于开发游戏中的脚本和模组，如FiveM（GTA）。</li><li>使用Git进行版本控制和项目协作。</li>",
+        "physics_content": "<li>在大学期间专攻量子物理学和场论。</li><li>具备高级的数学建模和物理现象模拟技能。</li><li>有实验研究和实验室数据分析的经验。</li><li>理论物理学知识和数值方法的应用。</li>",
+        "languages_content": "<li>英语：获得拉拉古纳大学的B2级证书。</li><li>日语：获得拉拉古纳大学的A2.1级证书。</li><li>中文：获得拉拉古纳大学的A1级证书。</li><li>韩语：基础水平A1.1。</li>",
+        "other_content": "<li>在大学课程中培养的领导能力和团队合作技能。</li><li>获得拉拉古纳大学的高级Microsoft Word技能证书。</li><li>对天文学和观星有个人兴趣。</li><li>对人工智能和新兴技术的好奇心。</li>"
+    },
+    "certification": {
+        "theater": "<h3>戏剧课程</h3><p class='cert-duration'>时长：7个月（总计约560小时）</p><p>特内里费加那利群岛演员学校（EAC）成人戏剧集中课程。</p>",
+        "leader": "<h3>领导力课程</h3><p class='cert-duration'>时长：48小时</p><p>由拉古纳大学组织的领导力和管理技能课程。</p>",
+        "word": "<h3>Microsoft Word课程</h3><p class='cert-duration'>时长：24小时</p><p>拉古纳大学认证的高级Microsoft Word管理课程。</p>",
+        "english": "<h3>英语课程</h3><p class='cert-duration'>时长：3个月（总计约24小时）</p><p>为期3个月的每周2小时的英语集中课程。</p><p>水平：B2（CEFR）</p>",
+        "japanese" : "<h3>日语课程</h3><p class='cert-duration'>时长：3个月（总计约24小时）</p><p>为期3个月的每周2小时的日语集中课程。</p><p>水平：A2（CEFR） | N4</p>",
+        "noken": "<h3>Noken 5认证</h3><p>在拉斯帕尔马斯大学获得。</p><p>水平：N5（Noken）</p>",
+        "chinese": "<h3>汉语课程</h3><p class='cert-duration'>时长：3个月（总计约24小时）</p><p>为期3个月的每周2小时的汉语集中课程。</p><p>水平：A1（CEFR） | HSK1</p>",
+        "korean": "<h3>韩语课程</h3><p class='cert-duration'>时长：3个月（总计约24小时）</p><p>为期3个月的每周2小时的韩语集中课程。</p><p>水平：A1（CEFR） | TOPIK I Grade 1</p>"
+    },
+    "interest": {
+        "travel": "<strong>旅行和文化</strong><p>我有机会探索了欧洲的许多地方，我的梦想是未来能访问亚洲国家，了解他们的文化和传统。</p>",
+        "technology": "<strong>技术</strong><p>我对与技术相关的一切充满热情，特别是人工智能（AI）和量子计算等新趋势。</p>",
+        "read": "<strong>文学和阅读</strong><p>文学是我的一个伟大的爱好。我喜欢阅读各种类型的书籍，从历史书籍、科幻小说到漫画和《堂吉诃德》这样的伟大文学经典。</p>",
+        "language": "<strong>语言学习</strong><p>我对学习和掌握世界各地的不同语言感兴趣，始终寻求扩展我的语言和文化视野。</p>",
+        "game": "<strong>视频游戏</strong><p>自从PlayStation 1时代以来，我一直享受各种类型的电子游戏，从经典到最新的发行版，我都喜欢探索。</p>",
+        "astronomy": "<strong>天文学</strong><p>我最喜欢的活动之一是用我的望远镜观星，探索我们周围迷人的宇宙。</p>",
+        "anime": "<strong>动漫和亚洲文化</strong><p>我对日本动漫充满热情，对中国、韩国和日本的文化非常感兴趣，探索他们的艺术、音乐和传统。</p>",
+        "personal": "<strong>个人发展</strong><p>我一直在寻找机会学习不同领域的新技能和知识，挑战自己的极限，扩展我的视野。</p>",
+        "reach": "<strong>研究</strong><p>对理论物理、量子物理的研究感兴趣，并探索分子物理、材料物理和核物理等其他领域。</p>"
+    },
+    "contact": {
+        "name": "名字",
+        "email": "电子邮件",
+        "message": "信息",
+        "send": "发送"
+    }
+}

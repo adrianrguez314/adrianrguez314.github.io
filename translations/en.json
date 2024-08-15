@@ -1,0 +1,79 @@
+{
+    "nav": {
+        "home" : "Home",
+        "about_me" : "About me",
+        "contact" : "Contact"
+    },
+    "title":{
+        "welcome": "Welcome to my personal page",
+        "about_me": "About me",
+        "experience": "Laboral experience",
+        "education": "Education",
+        "skills": "Skills",
+        "certifications_awards": "Certifications and awards",
+        "tools_technologies": "Tools and technologies",
+        "interests": "Interests",
+        "contact" : "Contact"
+    },
+    "principal_main": {
+        "subtitle" : "Integrating Physics, Mathematics, and Software Development",
+        "contact":"Contact me"
+    },
+    "content": {
+        "about_me": "<p>Hello! I'm Adrián, originally from Tenerife, Canary Islands, Spain.</p><p>I earned my degree in Physics and Mathematics from the University of La Laguna, where I specialized in fascinating areas such as quantum physics and field theory. During my academic journey, I developed critical skills in analyzing complex problems and applying advanced research methods.</p><p>My interest in technology led me to explore programming from an early stage, spanning from web development to implementing innovative solutions in the computer field. This combination of skills has allowed me to engage in academic and personal projects that push the boundaries of science and technology.</p><p>Born in February 1996, my passion for continuous learning and exploration drives me to seek new opportunities for professional growth. I am committed to pursuing challenges that allow me to apply my knowledge in dynamic and collaborative environments, contributing to the advancement and innovation in my field of study.</p>",
+        "HTML_Technology" : "I use <strong>HTML</strong> to structure and format web content. It is the standard markup language that defines the basic structure of web pages. Alongside CSS and JavaScript, it enables the creation of dynamic and attractive websites.",
+        "CSS_Technology": "<strong>CSS</strong> is essential for the visual design of web pages. It allows applying styles such as colors, fonts, and layouts adaptable to different devices. It also facilitates creating animations and transitions that enhance user experience.",
+        "JS_Technology": "<strong>Javascript</strong> adds interactivity to web pages, allowing manipulation of content dynamically and responding to user actions. It is essential for developing modern and dynamic web applications.",
+        "SQL_Technology": "<strong>SQL</strong> is used to manage relational databases, allowing for complex queries and efficient data manipulation. It is essential in applications handling large volumes of information.",
+        "C_Technology": "<strong>C</strong> is a high-performance programming language. It is used in operating systems and low-level applications.",
+        "CPP_Technology": "<strong>C++</strong> incorporates object-oriented programming, making it ideal for complex software such as video games and real-time systems.",
+        "CSharp_Technology": "<strong>C#</strong> is a modern language developed by Microsoft, used in desktop, web, and backend services applications. It combines simplicity with advanced features, facilitating the development of robust software.",
+        "Python_Technology": "<strong>Python</strong> is known for its clear and concise syntax, widely used in web development, data science, and machine learning. It is ideal for projects requiring rapid development and ease of use, such as in physics and scientific computing.",
+        "Vue_Technology": "<strong>Vue.js</strong> is a progressive JavaScript framework for building interactive user interfaces. It facilitates the creation of modern and reactive web applications using reusable components and efficient updates to the DOM.",
+        "ASM_Technology": "<strong>ASM</strong> is a low-level language that allows programming directly to the CPU. It is essential for situations where absolute control and maximum efficiency in hardware and real-time systems are required."    
+    },
+    "education": {
+        "university_title": "Bachelor's in Physics and Mathematics",
+        "university_location": "- Tenerife, Canary Islands, Spain",
+        "university_description": "Achievement of a degree in Physics and Mathematics with specialization in areas such as quantum physics and field theory. Development of critical skills in complex problem analysis and advanced research methods.",
+        "university_name": "University of La Laguna"
+    },
+    "skill": {
+        "programming_title": "Programming",
+        "physics_title": "Physics",
+        "languages_title": "Languages",
+        "other_title": "Others",
+        "programming_content": "<li>Proficiency in Python for scientific applications and data analysis.</li><li>Experience in web development with Vue.js and advanced knowledge of HTML, CSS, and JavaScript.</li><li>Familiarity with C, C++, and C# for software development and embedded systems.</li><li>Knowledge in Lua for script and mod development in games like FiveM (GTA).</li><li>Use of Git for version control and project collaboration.</li>",
+        "physics_content": "<li>Specialization in quantum physics and field theory during my university studies.</li><li>Advanced skills in mathematical modeling and simulation of physical phenomena.</li><li>Experience in experimental research and data analysis in the laboratory.</li><li>Knowledge in theoretical physics and application of numerical methods.</li>",
+        "languages_content": "<li>English: B2 level certificate from the University of La Laguna.</li><li>Japanese: A2.1 level certificate from the University of La Laguna.</li><li>Chinese: A1 level certificate from the University of La Laguna.</li><li>Korean: Basic level A1.1.</li>",
+        "other_content": "<li>Leadership and teamwork skills developed during university courses.</li><li>Advanced proficiency certificate in Microsoft Word from the University of La Laguna.</li><li>Passion for astronomy and stargazing as a personal hobby.</li><li>Curiosity about artificial intelligence and emerging technologies.</li>"
+    },
+    "certification": {
+        "theater": "<h3>Theater Course</h3><p class='cert-duration'>Duration: 7 months (approx. 560 hours total)</p><p>Intensive adult theater course at the School of Actors of the Canary Islands (EAC) in Tenerife.</p>",
+        "leader": "<h3>Leadership Course</h3><p class='cert-duration'>Duration: 48 hours</p><p>Course on leadership and management skills organized by the University of La Laguna.</p>",
+        "word": "<h3>Microsoft Word Course</h3><p class='cert-duration'>Duration: 24 hours</p><p>Course certified by the University of La Laguna on advanced Microsoft Word management.</p>",
+        "english": "<h3>English Course</h3><p class='cert-duration'>Duration: 3 months (approx. 24 hours total)</p><p>Intensive English course with weekly classes of 2 hours over 3 months.</p><p>Level: B2 (CEFR)</p>",
+        "japanese" : "<h3>Japanese Course</h3><p class='cert-duration'>Duration: 3 months (approx. 24 hours total)</p><p>Intensive Japanese course with weekly classes of 2 hours over 3 months.</p><p>Level: A2 (CEFR) | N4</p>",
+        "noken": "<h3>Noken 5 Certification</h3><p>Obtained at the University of Las Palmas de Gran Canaria.</p><p>Level: N5 (Noken)</p>",
+        "chinese": "<h3>Chinese Course</h3><p class='cert-duration'>Duration: 3 months (approx. 24 hours total)</p><p>Intensive Chinese course with weekly classes of 2 hours over 3 months.</p><p>Level: A1 (CEFR) | HSK1</p>",
+        "korean": "<h3>Korean Course</h3><p class='cert-duration'>Duration: 3 months (approx. 24 hours total)</p><p>Intensive Korean course with weekly classes of 2 hours over 3 months.</p><p>Level: A1 (CEFR) | TOPIK I Grade 1</p>"
+    },
+
+    "interest": {
+        "travel": "<strong>Travel and Culture</strong><p>I have had the opportunity to explore many places in Europe, and my dream is to visit Asian countries in the future to learn about their culture and traditions.</p>",
+        "technology": "<strong>Technology</strong><p>I am passionate about everything related to technology, especially new trends such as artificial intelligence (AI) and quantum computing.</p>",
+        "read": "<strong>Literature and Reading</strong><p>Literature is one of my great passions. I enjoy reading a wide variety of genres, from historical and science fiction books to manga and great literary classics like Don Quixote.</p>",
+        "language": "<strong>Language Learning</strong><p>I am interested in learning and mastering different languages from around the world, always seeking to expand my linguistic and cultural horizons.</p>",
+        "game": "<strong>Video Games</strong><p>Since the era of the PlayStation 1, I have enjoyed a wide variety of video games of different genres, exploring everything from classics to the latest releases.</p>",
+        "astronomy": "<strong>Astronomy</strong><p>One of my favorite activities is stargazing with my telescope, exploring the fascinating universe around us.</p>",
+        "anime": "<strong>Anime and Asian Culture</strong><p>I am passionate about Japanese anime and have a great interest in the culture of China, Korea, and Japan in general, exploring their art, music, and traditions.</p>",
+        "personal": "<strong>Personal Development</strong><p>I am always looking for opportunities to learn new skills and knowledge in different areas, challenging my limits and expanding my perspective.</p>",
+        "reach": "<strong>Research</strong><p>Interest in research in theoretical physics, quantum physics, and exploring other areas such as molecular physics, materials physics, and nuclear physics.</p>"
+    },
+    "contact": {
+        "name": "Name",
+        "email": "Email",
+        "message": "Message",
+        "send": "Send"
+    }
+}
