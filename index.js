@@ -204,7 +204,7 @@ function setupSwiper() {
 
 function initialize() {
   detectLanguage();
-  setProfilePicture("dress96");
+  setProfilePicture("adrianrguez96");
   handleHeroAnimation();
   enableSmoothScrolling();
   setupToolButtons();
