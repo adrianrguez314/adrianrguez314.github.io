@@ -61,8 +61,8 @@ I am passionate about physics, mathematics, and programming, with skills in Lua 
 
 ## External Links
 
-- **Portfolio Website:** [https://adrianrguez96.github.io/](https://adrianrguez96.github.io/)
-- **GitHub:** [github.com/adrianrguez96](https://github.com/adrianrguez96)
+- **Portfolio Website:** [https://adrianrguez96.github.io/](https://adrianrguez314.github.io/)
+- **GitHub:** [github.com/adrianrguez96](https://github.com/adrianrguez314)
 - **Linkedin:** [linkedin.com/in/adrian](https://linkedin.com/in/adrianrguez296)
 
 ## Contact
